@@ -11,7 +11,7 @@
 		<script>
 			
 			window.onload=function(){
-				//window.location.href = "http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR";
+				
 			};
 			
 		</script>
@@ -28,12 +28,17 @@
 			function Actualizar(){
 				
 			}
-			
+			function callAnothePage()
+             {
+                window.location = "http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR";
+             }
 			
 		</script>
 	</head>
 	<body onload="Init();">
-		<object data="http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR"></object>
+		<h1>Welcome to PhoneGap</h1>
+        <h2>Edit assets/www/index.html</h2>
+        <button name="buttonClick" onclick="callAnothePage()">Click Me!</button>
 		
 	</body>
 </html>
