@@ -21,8 +21,10 @@
 			object{border:1px solid blue;height:100%;width:100%;}
 		</style>
 		<script>
+			
 			function Init(){
-								
+				var x="http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR";
+				var ref = cordova.InAppBrowser.open(x, '_blank', 'location=yes');				
 			}
 			
 			function Actualizar(){
@@ -30,20 +32,16 @@
 			}
 			function callAnothePage()
              {
-				alert('IN');
-				var x="http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR";
+				
+				
                 //window.location = "http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR";
 				//window.open(x, '_blank', 'location=yes');
-				var ref = cordova.InAppBrowser.open(x, '_blank', 'location=yes');
-				alert('OUT');
+				
+				
              }
 			
 		</script>
 	</head>
 	<body onload="Init();">
-		<h1>Welcome to PhoneGap</h1>
-        <h2>Edit assets/www/index.html</h2>
-        <button name="buttonClick" onclick="callAnothePage()">Click Me!</button>
-		
 	</body>
 </html>
