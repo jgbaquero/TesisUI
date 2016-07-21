@@ -30,7 +30,12 @@
 			}
 			function callAnothePage()
              {
-                window.location = "http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR";
+				alert('IN');
+				var x="http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR";
+                //window.location = "http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR";
+				//window.open(x, '_blank', 'location=yes');
+				var ref = cordova.InAppBrowser.open(x, '_blank', 'location=yes');
+				alert('OUT');
              }
 			
 		</script>

@@ -3,7 +3,7 @@
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.phonegap.TesisUI"
-        version     = "3.7.9"
+        version     = "3.7.11"
         versionCode = "201" >
 
         <!-- versionCode is optional and Android only -->
@@ -19,6 +19,7 @@
         </author>
 	<gap:plugin name="org.apache.cordova.media" version="0.2.8" />
 	<plugin name="com.jp.whitelistplugin" spec="1.1.2" source="pgb" />
+	<plugin name="com.stevenpartridge.inappbrowser" spec="1.4" source="pgb" />
 	<allow-navigation href="*" />
 	<access origin="*" />
     </widget>
