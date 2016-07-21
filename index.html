@@ -11,13 +11,14 @@
 		<script>
 			
 			window.onload=function(){
-				window.location.href = "http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR";
+				//window.location.href = "http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR";
 			};
 			
 		</script>
 
 		<style>
-            
+            body{border:1px solid red;height:100%;width:100%;}
+			iframe{border:1px solid blue;height:100%;width:100%;}
 		</style>
 		<script>
 			function Init(){
@@ -32,6 +33,6 @@
 		</script>
 	</head>
 	<body style="border:1px solid red;" onload="Init();">
-	
+		<iframe src="http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR"></iframe>
 	</body>
 </html>
