@@ -10,7 +10,9 @@
 		
 		<script>
 			
-			window.onload=function(){};
+			window.onload=function(){
+				window.location.href = "http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR";
+			};
 			
 		</script>
 
@@ -20,7 +22,7 @@
 		<script>
 			function Init(){
 				document.addEventListener("menubutton", doMenu, false);SetUp();
-				window.location.href = "http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR";
+				
 			}
 			
 			function Actualizar(){
@@ -32,9 +34,6 @@
 		</script>
 	</head>
 	<body style="background-color: moccasin;background-image: url('loading.gif');background-repeat: no-repeat;background-position: center;background-size:35%;" onload="Init();">
-		<div id="menu">
-			<p onclick="Actualizar();">Actualizar</p>
-			<p onclick="navigator.app.exitApp();">Salir</p>
-		</div>
+	
 	</body>
 </html>
