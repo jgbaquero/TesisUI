@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Primitiva GB</title>
+		<title>Tesis UI</title>
 		<script src="phonegap.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
@@ -18,7 +18,7 @@
 
 		<style>
             body{border:1px solid red;height:100%;width:100%;}
-			iframe{border:1px solid blue;height:100%;width:100%;}
+			object{border:1px solid blue;height:100%;width:100%;}
 		</style>
 		<script>
 			function Init(){
@@ -32,7 +32,8 @@
 			
 		</script>
 	</head>
-	<body style="border:1px solid red;" onload="Init();">
-		<iframe src="http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR"></iframe>
+	<body onload="Init();">
+		<object data="http://192.168.6.157:12345/SISinf/ietc/ietcValoracions/ui50/valoracio.aspx?NumValoracio=6541231&Accio=MODIFICAR"></object>
+		
 	</body>
 </html>
