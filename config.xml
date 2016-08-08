@@ -3,12 +3,12 @@
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.phonegap.TesisUI"
-        version     = "3.7.15"
+        version     = "3.7.16"
         versionCode = "201" >
 
         <!-- versionCode is optional and Android only -->
 
-        <preference name="phonegap-version" value="cli-5.2.0" />
+        <preference name="phonegap-version" value="cli-6.3.0" />
 
         <name>TesisUI</name>
 
